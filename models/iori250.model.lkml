@@ -2,7 +2,7 @@ connection: "thelook"
 
 # include all the views
 include: "/views/**/*.view.lkml"
-
+include: "/Testing_new.dashboard.lookml"
 datagroup: iori250_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "1 hour"
